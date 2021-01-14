@@ -1,2 +1,90 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+    
+}
+h3 {
+    color:#272822;
+}
+p{
+    color: dimgray;
+}
+.orange-highlight{
+    color: orange;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
 
+.top-section {
+    width: 100%;
+}
 
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+#projects {
+    background-color: #F8F9FC;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 20px;
+    margin-left:5%;
+    margin-right: 5%;
+}
+.wrapper {
+
+}
+h3 {
+    text-align: center;
+}
+.one-third {
+    width: 30%;
+    border: 1px solid black;
+    float: left;
+    padding: 10px;
+    margin-right: 10px;
+    
+   
+}
+.one-third img {
+    width: 100%;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+    border-radius: 5%;
+}
+.chat {
+   
+   
+    margin-left:5%;
+    margin-right: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-image: url("images/chat.png");
+    /* background-repeat: no-repeat;
+    background-position: cover; */
+}
